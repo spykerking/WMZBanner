@@ -371,7 +371,7 @@
              self.param.wVertical?UICollectionViewScrollPositionCenteredVertically:
                                   UICollectionViewScrollPositionCenteredHorizontally animated:animated];
         }else{
-            [self.myCollectionV scrollToItemAtIndexPath:path atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:animated];
+            [self.myCollectionV scrollToItemAtIndexPath:path atScrollPosition:UICollectionViewScrollPositionLeft animated:animated];
         }
     }
     
